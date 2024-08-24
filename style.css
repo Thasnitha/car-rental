@@ -1,0 +1,273 @@
+*{
+}
+nav{
+    margin-top: 5;
+}
+#main1{
+    justify-content: space-around;
+}
+h1{
+    margin-left: 50px;
+}
+#para1{
+    margin-top: -80px;
+    margin-left: 40px;
+    font-size: 20px;
+ } 
+ .logos{
+    display: flex;
+ }
+.app{
+    margin-top: 90px;
+    height: 700px;
+}
+#img2{
+    height: 500px;
+    margin-top: 100px;
+}
+#para2{
+    font-size: 20px;
+
+}
+.body2{
+    margin-top: 300px;
+    text-align: center;
+
+}
+.button2{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#car{
+    width: 500px;
+    height: 300px;
+}
+#grid2{
+    margin-top: 80px;
+}
+#car2{
+    height: 200px;
+    width: 350px;
+}
+#head4{
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size: 80px;
+}
+#para2{
+    margin-left: 70px;
+}
+#grid22{
+    background: url('https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: none;
+
+}
+#grid3{
+    background: url('https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: none;
+
+}
+#grid4{
+    background: url('https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: none;
+
+
+}
+
+#grid5{
+    background: url('https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: none;
+
+}
+#maingrid{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#head5{
+    margin-top: 40px;
+
+}
+#bg{
+    background-color: black;
+    height: 500px;
+    border-radius: 30px;
+    width: 85%;
+    margin-left: 100px;
+    
+}
+#head6{
+    text-align: center;
+}
+#para3{
+text-align: center;
+}
+#button3{
+    text-align: center;
+}
+footer{
+    height: 400px;
+    padding-top: 150px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 1.4rem;
+    font-weight: 600;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+#parts{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+#parts1{
+    height:400px ;
+    width: 400px;
+    align-items: center;
+}
+
+#parts2{
+    height:400px ;
+    width: 400px;
+}
+
+#parts3{
+    height:400px ;
+    width: 400px;
+}
+#partsh{
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.carparts2{
+    margin-top: 50px;
+    margin-right: 10px;
+
+
+
+}
+
+#parts4{
+    height:400px ;
+    width: 400px;
+    align-items: center;
+}
+
+#parts5{
+    height:400px ;
+    width: 400px;
+    align-items: center;
+}
+
+#parts6{
+    height:400px ;
+    width: 400px;
+    align-items: center;
+}
+
+body{
+    overflow-x: hidden;
+}
+@media (max-width:992px){
+   
+
+    
+    .header{
+        padding: 1.3rem 5%;
+    }
+}
+@media(max-width:760px){
+    .icons{
+        display: flex;
+    }
+    #closeicon{
+        display: none;
+       
+    }
+    #check:checked~.icons #menuicon{
+        display: none;
+    }
+    #check:checked~.icons #closeicon{
+        display: block;
+    }
+   
+    .navbar{
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        background-color: gray;
+        display: none;
+        height: 350px;
+}
+#check:checked~.navbar{
+    display: block;
+}
+.navbar li{
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1.5rem 0px;
+}
+#btn1{
+    margin-top: -40px;
+}
+#head1{
+    font-size: 50px;
+    margin-left: 5px;
+}
+#para1{
+    font-size: 10px;
+    margin-left: 20px;
+}
+#AboutUs{
+    display: block;
+}
+.logos{
+    display: block;
+}
+#cheap{
+    font-size: 30px;
+}
+.parab{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -600px;
+}
+#futures{
+    display: block;
+}
+#para2{
+    display: none;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+}
